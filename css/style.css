@@ -1,0 +1,43 @@
+html {
+    font-size: 12px;
+    background: url('drums.jpg') top center;
+    background-size: 80%;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    align-items: top;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.key {
+    border: 0.4rem solid blue;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    padding: 1rem 0.5rem;
+    transition: all 0.01s ease;
+    width: 5rem;
+    text-align: center;
+    color: black;
+    text-shadow: 0 0 0.5rem yellow;
+}
+
+.keys button {
+    font-size: 30px;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.keys button:hover {
+    border: 2px solid blueviolet;
+    background-color: white;
+    color: blueviolet;
+}
